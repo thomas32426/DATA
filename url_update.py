@@ -24,5 +24,5 @@ with open('url.txt', 'w') as f:
         for name in images:
             if " " in name:
                 os.rename(os.path.join('data',i, name), os.path.join('data',i, name.replace(" ", "_")))
-            f.write('https://github.com/shadySource/DATA/raw/master/data/'+i+'/'+name+' ')
+            f.write('https://github.com/thomas32426/DATA/raw/master/data/'+i+'/'+name+' ')
         f.write('\n')
